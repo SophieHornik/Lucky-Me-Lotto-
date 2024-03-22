@@ -24,5 +24,5 @@ li.className = 'list-group-item'
     li.appendChild(span)
 nameList.appendChild(li)
 }
- }
+ 
 document.getElementById('addNameBtn').addEventListener('click', addName)
