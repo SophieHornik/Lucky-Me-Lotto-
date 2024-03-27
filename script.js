@@ -45,3 +45,4 @@ randomNameDiv.textContent = ''
 
 // add onclick to add name btn
 document.getElementById('addNameBtn').addEventListener('click', addName)
+document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
