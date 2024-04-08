@@ -49,3 +49,7 @@ randomNameDiv.textContent = ''
 // add onclick to add name btn
 document.getElementById('addNameBtn').addEventListener('click', addName)
 document.getElementById('pickRandomBtn').addEventListener('click', pickRandomName)
+
+nameInput.addEventListener('keyup', (event)=>{
+if(event.which === 13){ addName ()}
+});
